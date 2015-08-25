@@ -1,0 +1,3 @@
+myuser=afd
+mypass=company1
+mysqlurl=jdbc\:mysql\://216.154.211.104/AfdSyncCalendar

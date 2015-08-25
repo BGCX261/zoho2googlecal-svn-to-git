@@ -1,0 +1,19 @@
+#Introduction to the Proyect
+
+It is designed to run as a Cron Job every 15 minutes during business hours and every 45 during the night to meet Zoho API requirementes.
+
+Authentication is used via API KEY , User and Password in Zoho since its the only way; And with Auth Sub Token for Google.
+
+There is a PHP Web UI to process the One Time Google Login, to get the Auth Sub Token that is used for all API CALLs. This code and Mysqt script are on SVN.
+
+This code get Zoho User and Password, Zoho API.
+
+This App only works if Zoho CRM is hooked to Google Apps; or if Google Pass is equal to Zoho Password.
+
+The Java App also needs a Properties File to work, check the Instructions
+
+Important NOTE: Recurive Events in Google will not be Processed.
+
+Description
+
+Instructions 
